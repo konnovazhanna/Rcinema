@@ -1,0 +1,19 @@
+body {
+    background-color: #121521;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.container {
+    width: 1242px;
+    margin: auto;
+}
+
+.mainmenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainmenu__list {
+    display: flex;
+    gap: 42px;
+}
