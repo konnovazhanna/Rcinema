@@ -1,6 +1,7 @@
 body {
     background-color: #121521;
     font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .container {
@@ -8,12 +9,151 @@ body {
     margin: auto;
 }
 
+.d-flex {
+    display: flex;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+h3 {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.description {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    color: #B2B2D3;
+    font-style: normal;
+    font-weight: 500;
+   
+}
+
+.description--uppercase {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    line-height: 27px;
+}
+
 .mainmenu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 141px;
+    
 }
 
 .mainmenu__list {
     display: flex;
     gap: 42px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.mainmenu__list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 20px;
+}
+
+.mainscreen__block {
+    align-items: center;
+    height: 750px;
+    gap: 75px;
+}
+
+.mainscreen__left {
+    width: 455px;
+}
+
+.buttons {
+    width: 455px;
+    gap: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 14px 40px 18px 40px;
+    color: #ffffff;
+}
+
+.button__primary {
+    background-color: #40467C;
+    
+}
+
+.button__secondary {
+    background-color: #141923;
+    border: 2px solid #ffffff;
+}
+
+.benefit__block {
+    height: 524px;
+    background-color: #1B213A;
+}
+
+.benefit__images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 524px;
+}
+
+.block--grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.location {
+    height: 837px;
+}
+
+.location__title {
+    justify-content: space-between;
+}
+
+.location__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    
+}
+
+.location__item img {
+    width: 394px;
+    height: 394px;
+}
+
+.booking {
+    background-color: #1B213A;
+    height: 845px;
 }
