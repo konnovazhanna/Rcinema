@@ -35,7 +35,7 @@
                     into an adventure</p>
                 <div class="buttons d-flex">
                     <a class="button button__primary description--uppercase" href="#">Book a day</a>
-                    <a class="button button__secondary description--uppercase" href="#">How it works</a>
+                    <a class="button border__secondary description--uppercase" href="#">How it works</a>
                 </div>
             </div>    
             <img class="mainscreen__right" src="images/bg.png" alt="">
@@ -95,23 +95,119 @@
         </div>
     </section>
     <section class="booking">
-        <div class="container">
-            <div>
+        <div class="booking__block d-flex container">
+            <div class="booking__left">
                 <h2>Booking info</h2>
-                <div>
+                <div class="booking__item border__secondary">
                     <h3>How does it work?</h3>
                     <p class="description">The Private Cinema can be set up anywhere you like, be it poolside, on the lawn or even the roof terrace, provided there is an available power outlet. All films must start after sunset.
                         Our team of experts arrive in a fully equipped van and will advise you on the best place to setup the cinema based on our experience.</p>
                 </div>
-                <div>
+                <div class="booking__item border__secondary">
                     <h3>What films can I choose?</h3>
                 </div>
-                <div>
+                <div class="booking__item border__secondary">
                     <h3>How long does it takes to setup?</h3>
                 </div>
             </div>
-            <img src="images/img.png" alt="">
+            <img class="booking__right" src="images/img.png" alt="">
         </div>
     </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__title d-flex">
+                <h2>Gallery</h2>
+                <p class="description">See more and follow us @rooftopcinema</p>
+                <img src="images/small_btn (2).png" alt="">
+                <img src="images/small_btn.png" alt="">
+            </div>
+            <div class="gallery__images">
+                <img class="gallery__images--big" src="images/Rectangle 20.png" alt="">
+                <div class="gallery__images--small">
+                    <img src="images/Rectangle 21.jpg" alt="">
+                    <img src="images/Rectangle 7.jpg" alt="">
+                    <img src="images/Rectangle 18.jpg" alt="">
+                    <img src="images/Rectangle 17.jpg" alt="">
+                </div>    
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <h2>Customers reviews</h2>
+            <div class="reviews__columns">
+                <div class="reviews__arrows">
+                    <img src="images/top.png" alt="">
+                    <img src="images/down.png" alt="">
+                </div>
+                <div class="reviews__customers">
+                    <div class="reviews__item item--dark">
+                        <p><span>We had an amazing time tonight!</span>The parking attendants were great & the quality of the movie was very good. 
+                            We got front row parking because we came early. Loved the experience of it all! Highly recommend for a date night.</p>
+                        <p>Review by Traci Rc</p>
+                        <p>12 hours ago</p>
+                    </div>
+                    <div class="reviews__item item--dark">
+                        <p><span>Had a great time watching the Sandlot!</span>Everyone who works there is amazing. Some patrons may need to be a 
+                            little more patient & understanding... a socially distant pop-up drive-in theater may not be for everyone!</p>
+                        <p>Review by Rebekka Jonson</p>
+                        <p>5 days ago</p>
+                    </div>
+                </div>
+                <div class="reviews__image">
+                    <img src="images/image 22.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container d-flex">
+            <img src="images/image 21.png" alt="">
+            <div class="item--dark">
+                <h2>Drop us a line</h2>
+                <form action="" method="get">
+                    <title>Drop us a line</title>
+                    <input type="text" name="userename" placeholder="Enter your name">
+                    <input type="email" name="useremail" placeholder="Enter your email">
+                    <input type="text" name="comment" placeholder="Type you question">
+                    <input class="btn btn-default" type="submit" name="submit" value="Send message">
+                    <input type="checkbox" value="I have read and agree with the Terms And Conditions">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__menu">
+                <img src="images/logo.svg" alt="">
+                <div class="footer__contact">
+                    <p class="description">Our contacts <br>info@roofcinema.com <br>+17(568) 456-56-12</p>
+                </div>
+                <div class="footer__adress">
+                    <p class="description">Our office<br>4920 S Avalon Blvd, Los <br>Angeles, CA 90011</p>
+                </div>
+                <form action="Sign_up">
+                    <input type="email" value="Enter your email">
+                    <input type="button" name="" id="" value="Sign up">
+                </form>
+            </div>    
+        </div>
+        <div class="item--dark">
+            <div class="container">
+                <div class="footer__bottom">
+                    <ul lass="copyright">
+                        <li><p>© All rights reserved </p></li>
+                        <li><a href="#">Terms & Conditions </a></li>
+                        <li><a href="#">Privacy Policy </a></li>
+                    </ul>
+                    <ul class="social__network">
+                        <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                        <li><a href="#"></a><img src="images/instagram 1.png" alt=""></li>
+                        <li><a href="#"></a><img src="images/youtube.png" alt=""></li>
+                    </ul>
+                </div>    
+            </div>    
+        </div>    
+    </footer>
 </body>
 </html>

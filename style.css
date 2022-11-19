@@ -111,8 +111,7 @@ a {
     
 }
 
-.button__secondary {
-    background-color: #141923;
+.border__secondary {
     border: 2px solid #ffffff;
 }
 
@@ -156,4 +155,105 @@ a {
 .booking {
     background-color: #1B213A;
     height: 845px;
+}
+
+.booking__block {
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking__left {
+    width: 576px;
+}
+
+.booking__item {
+    width: 576px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+.gallery {
+    height: 975px;
+}
+
+.gallery__title {
+    justify-content: space-between;
+}
+
+.gallery__images {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.gallery__images--big {
+    width: 606px;
+    height: 630px;
+}
+
+.gallery__images--small {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.gallery__images--small img {
+    height: 300px;
+    width: 300px;
+}
+
+.reviews {
+    height: 916px;
+}
+
+.reviews__columns {
+    display: flex;
+    gap: 30px;
+}
+
+.reviews__item {
+    width: 500px;
+}
+
+.item--dark {
+    background-color: #1B213A;
+    
+}
+
+.contact {
+    height: 640px;
+}
+
+.footer {
+    height: 326px;
+}
+
+.footer__menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    align-items: center;
+    height: 199px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 127px;
+}
+
+.copyright li {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.social__network {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 10px;
 }
