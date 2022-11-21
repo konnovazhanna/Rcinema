@@ -15,99 +15,148 @@
         <div class="container">
             <div class="mainmenu">
                 <img src="images/logo.svg" alt="" class="logo">
-                <ul class="mainmenu__list">
-                    <li><a href="#">The experience</a></li>
-                    <li><a href="#">Booking info</a></li>
-                    <li><a href="#">Our locations</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Reviews</a></li>
-                    <li><a href="#">Contact us</a></li>
-                </ul>
+                <nav>
+                    <ul class="mainmenu__list">
+                        <li><a href="#">The experience</a></li>
+                        <li><a href="#">Booking info</a></li>
+                        <li><a href="#">Our locations</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
     <section class="mainscreen container">
         <div class="mainscreen__block d-flex">
             <div class="mainscreen__left">
-                <p class="description description--uppercase">Open-Air Film Experience</p>
+                <p class="description__uppercase--big">Open-Air Film Experience</p>
                 <h1>Rooftop Cinema</h1>
-                <p class="description">To turn your movie night 
-                    into an adventure</p>
+                <p class="description">To turn your movie night <br>into an adventure</p>
                 <div class="buttons d-flex">
-                    <a class="button button__primary description--uppercase" href="#">Book a day</a>
-                    <a class="button border__secondary description--uppercase" href="#">How it works</a>
+                    <a class="button button__primary description__uppercase--small" href="#">Book a day</a>
+                    <a class="button border__secondary description__uppercase--small" href="#">How it works</a>
                 </div>
             </div>    
             <img class="mainscreen__right" src="images/bg.png" alt="">
         </div>
     </section>
     <section class="benefit">
-        <div class="benefit__block container d-flex">
+        <div class="container d-flex">
             <div class="benefit__images">
-                <img src="images/Rectangle 3.png" alt="">
-                <img src="images/small_btn.png" alt="">
+                <img class="background__video" src="images/Rectangle 3.png" alt="">
+                <img class="btn__video" src="images/small_btn.png" alt="">
             </div>    
             <div class="benefit__block">
-                <h2>Open-air film experience</h2>
+                <div class="benefit__text">
+                    <h2>Open-air <br>film experience</h2>
                     <div class="block--grid">
-                        <div>
+                        <div class="benefit__item">
                             <h3>Personal Headphones</h3>
-                            <p class="description">Live completely in those movie moments, try to catch them!</p>
+                            <p class="description--lowercase">Live completely in those movie moments, try to catch them!</p>
                         </div>  
-                        <div>
+                        <div class="benefit__item">
                             <h3>City Views</h3>
-                            <p class="description">Our locations immerse you in the city skyline at night</p>
+                            <p class="description--lowercase">Our locations immerse you in the city skyline at night</p>
                         </div> 
-                        <div>
+                        <div class="benefit__item">
                             <h3>Chairs & Cozy Blankets</h3>
-                            <p class="description">Lean back and relax under the night sky in the hugs of fluffy blanket</p>
+                            <p class="description--lowercase">Lean back and relax under the night sky in the hugs of fluffy blanket</p>
                         </div> 
-                        <div>
+                        <div class="benefit__item">
                             <h3>Iconic Movies</h3>
-                            <p class="description">Our program is curated with cult films, classics, and new releases</p>
+                            <p class="description--lowercase">Our program is curated with cult films, classics, and new releases</p>
                         </div>  
                     </div>
+                </div>    
             </div>
         </div>
     </section>
     <section class="location">
         <div class="container">
-            <div class="location__title d-flex">
-                <h3>Our locations</h3>
-                <div>
-                    <img src="images/small_btn (2).png" alt="">
-                    <img src="images/small_btn (1).png" alt="">
-                </div>    
+            <div class="location__title d-flex sbetween">
+                <h2>Our locations</h2>
+                <nav>
+                    <ul class="location__navigation d-flex sbetween">
+                        <li><a href=""><img src="images/small_btn (2).png" alt=""></a></li>
+                        <li><a href=""><img src="images/small_btn (1).png" alt=""></a></li>
+                    </ul>
+                </nav>   
             </div>
-            <div class="location__cards">
+            <div class="location__cards d-flex sbetween">
                 <div class="location__item">
-                    <img src="images/Rectangle 1.png" alt="">
-                    <p>Cinema Club El Segundo</p>
+                    <img class="location__image" src="images/Rectangle 1.png" alt="">
+                    <div class="location__title d-flex sbetween">
+                        <h3>Cinema Club El Segundo</h3>
+                        <div class="location__rating d-flex sbetween">
+                            <img class="rating" src="images/Star 1.png" alt="">
+                            <p class="description--rating">4.6</p>
+                        </div>
+                    </div>
+                    <div class="cost d-flex sbetween">
+                        <p class="description__uppercase--big">Los Angeles</p>
+                        <p class="description--lowercase"><span class="description--lowercase600">From $25</span>/person</p>
+                    </div>
                 </div>
                 <div class="location__item">
-                    <img src="images/Rectangle 1 (1).png" alt="">
-
+                    <img class="location__image" src="images/Rectangle 1 (1).png" alt="">
+                    <div class="location__button">
+                        <a class="button button__center button__primary description__uppercase--small" href="#">Choose location</a>
+                        <img class="location__cursor" src="images/hand.png" alt="">
+                    </div>
+                    <div class="location__title d-flex sbetween">
+                        <h3>The Drive-In Off Navigation</h3>
+                        <div class="location__rating d-flex sbetween">
+                            <img class="rating" src="images/Star 1.png" alt="">
+                            <p class="description--rating">4.8</p>
+                        </div>
+                    </div>
+                    <div class="cost d-flex sbetween">
+                        <p class="description__uppercase--big">Houston</p>
+                        <p class="description--lowercase"><span class="description--lowercase600">From $22</span>/person</p>
+                    </div>
                 </div>
                 <div class="location__item">
-                    <img src="images/Rectangle 1.jpg" alt="">
+                    <img class="location__image" src="images/Rectangle 1.jpg" alt="">
+                    <div class="location__title d-flex sbetween">
+                        <h3>Cinema Club Embracadero</h3>
+                        <div class="location__rating d-flex sbetween">
+                            <img class="rating" src="images/Star 1.png" alt="">
+                            <p class="description--rating">4.2</p>
+                        </div>
+                    </div>
+                    <div class="cost d-flex sbetween">
+                        <p class="description__uppercase--big">San Diego</p>
+                        <p class="description--lowercase"><span class="description--lowercase600">From $25</span>/person</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="booking">
-        <div class="booking__block d-flex container">
+        <div class="booking__block container d-flex">
             <div class="booking__left">
                 <h2>Booking info</h2>
                 <div class="booking__item border__secondary">
-                    <h3>How does it work?</h3>
-                    <p class="description">The Private Cinema can be set up anywhere you like, be it poolside, on the lawn or even the roof terrace, provided there is an available power outlet. All films must start after sunset.
-                        Our team of experts arrive in a fully equipped van and will advise you on the best place to setup the cinema based on our experience.</p>
+                    <div class="booking__text">
+                        <h3>How does it work?</h3>
+                        <p class="description--lowercase">The Private Cinema can be set up anywhere you like, be it poolside, on the lawn or even the roof terrace, provided there is an available power outlet. All films must start after sunset.</p>
+                        <p class="description--lowercase">Our team of experts arrive in a fully equipped van and will advise you on the best place to setup the cinema based on our experience.</p>
+                    </div>
+                    <img class="vector-close" src="images/close.png" alt="">
                 </div>
-                <div class="booking__item border__secondary">
-                    <h3>What films can I choose?</h3>
+                <div class="booking__item border__inactive">
+                    <div class="booking__text">
+                        <h3>What films can I choose?</h3>
+                        <img class="vector-open" src="images/open.png" alt="">
+                    </div>
                 </div>
-                <div class="booking__item border__secondary">
-                    <h3>How long does it takes to setup?</h3>
+                <div class="booking__item border__inactive">
+                    <div class="booking__text">
+                        <h3>How long does it takes to setup?</h3>
+                        <img class="vector-open" src="images/open.png" alt="">
+                    </div>
                 </div>
             </div>
             <img class="booking__right" src="images/img.png" alt="">
@@ -115,11 +164,17 @@
     </section>
     <section class="gallery">
         <div class="container">
-            <div class="gallery__title d-flex">
-                <h2>Gallery</h2>
-                <p class="description">See more and follow us @rooftopcinema</p>
-                <img src="images/small_btn (2).png" alt="">
-                <img src="images/small_btn.png" alt="">
+            <div class="gallery__title d-flex sbetween">
+                <div class="gallery__titleposition d-flex">
+                    <h2>Gallery</h2>
+                    <p class="description--lowercase">See more and follow us <span class="description--lowercase600">@rooftopcinema</span></p>
+                </div>
+                <nav>
+                    <ul class="location__navigation d-flex sbetween">
+                        <li><a href=""><img src="images/small_btn (2).png" alt=""></a></li>
+                        <li><a href=""><img src="images/small_btn (1).png" alt=""></a></li>
+                    </ul>
+                </nav>
             </div>
             <div class="gallery__images">
                 <img class="gallery__images--big" src="images/Rectangle 20.png" alt="">
@@ -135,23 +190,33 @@
     <section class="reviews">
         <div class="container">
             <h2>Customers reviews</h2>
-            <div class="reviews__columns">
-                <div class="reviews__arrows">
-                    <img src="images/top.png" alt="">
-                    <img src="images/down.png" alt="">
-                </div>
+            <nav class="reviews__outside">
+                <ul class="reviews__navigation">
+                    <li><a href=""><img src="images/top.png" alt=""></a></li>
+                    <li><a href=""><img src="images/down.png" alt=""></a></li>
+                </ul>
+            </nav>
+            <div class="reviews__columns d-flex sbetween">
                 <div class="reviews__customers">
                     <div class="reviews__item item--dark">
-                        <p><span>We had an amazing time tonight!</span>The parking attendants were great & the quality of the movie was very good. 
-                            We got front row parking because we came early. Loved the experience of it all! Highly recommend for a date night.</p>
-                        <p>Review by Traci Rc</p>
-                        <p>12 hours ago</p>
+                        <div class="reviews__item--center">
+                            <p class="description--lowercase"><span class="description--lowercase600">We had an amazing time tonight!</span><br>The parking attendants were great & the quality of the movie was very good. 
+                                We got front row parking because we came early. Loved the experience of it all! Highly recommend for a date night.</p>
+                            <div class="reviews__from d-flex sbetween">
+                                <p class="description--lowercase">Review by Traci Rc</p>
+                                <p class="description--lowercase">12 hours ago</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="reviews__item item--dark">
-                        <p><span>Had a great time watching the Sandlot!</span>Everyone who works there is amazing. Some patrons may need to be a 
-                            little more patient & understanding... a socially distant pop-up drive-in theater may not be for everyone!</p>
-                        <p>Review by Rebekka Jonson</p>
-                        <p>5 days ago</p>
+                        <div class="reviews__item--center">
+                            <p class="description--lowercase"><span class="description--lowercase600">Had a great time watching the Sandlot!</span><br>Everyone who works there is amazing. Some patrons may need to be a 
+                                little more patient & understanding... a socially distant pop-up drive-in theater may not be for everyone!</p>
+                            <div class="reviews__from d-flex sbetween">    
+                                <p class="description--lowercase">Review by Rebekka Jonson</p>
+                                <p class="description--lowercase">5 days ago</p>
+                            </div>  
+                        </div>
                     </div>
                 </div>
                 <div class="reviews__image">
@@ -161,44 +226,50 @@
         </div>
     </section>
     <section class="contact">
-        <div class="container d-flex">
-            <img src="images/image 21.png" alt="">
-            <div class="item--dark">
-                <h2>Drop us a line</h2>
-                <form action="" method="get">
-                    <title>Drop us a line</title>
-                    <input type="text" name="userename" placeholder="Enter your name">
-                    <input type="email" name="useremail" placeholder="Enter your email">
-                    <input type="text" name="comment" placeholder="Type you question">
-                    <input class="btn btn-default" type="submit" name="submit" value="Send message">
-                    <input type="checkbox" value="I have read and agree with the Terms And Conditions">
-                </form>
+        <div class="container">
+            <div class="contact__outside d-flex">
+                <img class="contact__img--outside" src="images/image 21.png" alt="">
+                <div class="contact__form item--dark">
+                    <form class="contact__form--margin" action="" method="get">
+                        <h2>Drop us a line</h2>
+                        <input class="textform" type="text" name="userename" placeholder="Enter your name">
+                        <input class="textform" type="email" name="useremail" placeholder="Enter your email">
+                        <input class="textarea" name="textarea" id="#" placeholder="Type you question">
+                        <label class="d-flex sbetween">
+                            <button class="button button__primary description__uppercase--small" type="submit">Send message</button>
+                            <input class="checkbox description--lowercase" type="checkbox" checked>
+                            <title class="description--lowercase">I have read and agree with the <span class="description--lowercase600">Terms And Conditions</span></title>
+                        </label>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
     <footer class="footer">
         <div class="container">
-            <div class="footer__menu">
-                <img src="images/logo.svg" alt="">
-                <div class="footer__contact">
-                    <p class="description">Our contacts <br>info@roofcinema.com <br>+17(568) 456-56-12</p>
+            <div class="footer__menu d-flex sbetween">
+                <div class="footer__menu--left d-flex sbetween">
+                    <img src="images/logo.svg" alt="">
+                    <div class="footer__contact">
+                        <p class="description--lowercase">Our contacts <br><span class="description--lowercase600">info@roofcinema.com <br>+17(568) 456-56-12</span></p>
+                    </div>
+                    <div class="footer__adress">
+                        <p class="description--lowercase">Our office<br><span class="description--lowercase600">4920 S Avalon Blvd, Los <br>Angeles, CA 90011</span></p>
+                    </div>
                 </div>
-                <div class="footer__adress">
-                    <p class="description">Our office<br>4920 S Avalon Blvd, Los <br>Angeles, CA 90011</p>
-                </div>
-                <form action="Sign_up">
-                    <input type="email" value="Enter your email">
-                    <input type="button" name="" id="" value="Sign up">
+                <form action="sign-up">
+                    <input class="sign-up__mail description--lowercase" type="email" value="Enter your email">
+                    <button class="sign-up__button button button__primary description__uppercase--small">Sign up</button>
                 </form>
             </div>    
         </div>
         <div class="item--dark">
             <div class="container">
                 <div class="footer__bottom">
-                    <ul lass="copyright">
-                        <li><p>© All rights reserved </p></li>
-                        <li><a href="#">Terms & Conditions </a></li>
-                        <li><a href="#">Privacy Policy </a></li>
+                    <ul class="copyright">
+                        <p class="description--lowercase">© All rights reserved </p>
+                        <li><a class="description--lowercase" href="#">Terms & Conditions </a></li>
+                        <li><a class="description--lowercase" href="#">Privacy Policy </a></li>
                     </ul>
                     <ul class="social__network">
                         <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
