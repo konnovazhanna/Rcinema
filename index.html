@@ -103,7 +103,6 @@
                     <img class="location__image" src="images/Rectangle 1 (1).png" alt="">
                     <div class="location__button">
                         <a class="button button__center button__primary description__uppercase--small" href="#">Choose location</a>
-                        <img class="location__cursor" src="images/hand.png" alt="">
                     </div>
                     <div class="location__title d-flex sbetween">
                         <h3>The Drive-In Off Navigation</h3>
@@ -232,13 +231,12 @@
                 <div class="contact__form item--dark">
                     <form class="contact__form--margin" action="" method="get">
                         <h2>Drop us a line</h2>
-                        <input class="textform" type="text" name="userename" placeholder="Enter your name">
-                        <input class="textform" type="email" name="useremail" placeholder="Enter your email">
-                        <input class="textarea" name="textarea" id="#" placeholder="Type you question">
-                        <label class="d-flex sbetween">
+                        <input class="textform textform--font" type="text" name="userename" placeholder="Enter your name">
+                        <input class="textform textform--font" type="email" name="useremail" placeholder="Enter your email">
+                        <input class="textarea textform--font" name="textarea" id="#" placeholder="Type you question">
+                        <label class="checkbox d-flex sbetween">
                             <button class="button button__primary description__uppercase--small" type="submit">Send message</button>
-                            <input class="checkbox description--lowercase" type="checkbox" checked>
-                            <title class="description--lowercase">I have read and agree with the <span class="description--lowercase600">Terms And Conditions</span></title>
+                            <input class="checkbox__input" type="checkbox" value="1"/><span class="checkbox__text description--lowercase">I have read and agree with the <span class="description--lowercase600">Terms And Conditions</span></span>
                         </label>
                     </form>
                 </div>
@@ -258,7 +256,7 @@
                     </div>
                 </div>
                 <form action="sign-up">
-                    <input class="sign-up__mail description--lowercase" type="email" value="Enter your email">
+                    <input class="sign-up__mail textform--font" type="email" placeholder="Enter your email">
                     <button class="sign-up__button button button__primary description__uppercase--small">Sign up</button>
                 </form>
             </div>    

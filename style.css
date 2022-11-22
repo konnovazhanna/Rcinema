@@ -2,6 +2,7 @@ body {
     background-color: #121521;
     font-family: 'Darker Grotesque', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
 }
 
 .container {
@@ -145,11 +146,15 @@ a {
     justify-content: center;
     align-items: center;
     height: 59px;
-    padding: 14px 40px 18px;
+    padding: 10px 40px 10px 40px;
 }
 
 .button__primary {
     background-color: #40467C;
+}
+
+.button__primary:hover {
+    background-color: #51578C;
 }
 
 .border__secondary {
@@ -268,12 +273,6 @@ a {
     position: relative;
     bottom: 250px;
     left: 80px;
-}
-
-.location__cursor {
-    position: relative;
-    bottom: 270px;
-    left: 250px;
 }
 
 .booking {
@@ -434,11 +433,37 @@ a {
     height: 60px;
 }
 
+.textform:active {
+    border: 2px solid #FFFFFF;
+}
+
+.textform--font {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #B2B2D3;
+}
+
+.textform--font:active {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
 .textarea {
     background-color: #1B213A;
     border: 2px solid #40467C;
     width: 516px;
     height: 126px;
+}
+
+.textarea:active {
+    border: 2px solid #FFFFFF;
 }
 
 .visually-hidden {
@@ -491,6 +516,34 @@ a {
     align-items: center;
     height: 127px;
 }
+
+.checkbox {
+    cursor: pointer;
+  }
+
+.checkbox__input {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+.checkbox__input:checked {
+    background-color: #40467C;
+}
+
+.checkbox__text {
+    width: 214px;
+}
+
+.checkbox__input:checked + .checkbox__text::before {
+    background-color: grey;
+  }
 
 .copyright {
     display: flex;
